@@ -1,1 +1,1 @@
-openssl req -newkey rsa:2048 -sha256 -nodes -keyout bot_private_key.key -x509 -days 10000 -out bot_public.pem -subj "/C=US/ST=New York/L=MyDomain/O=MyDomain/CN=telebot.mywire.org"
+openssl req -newkey rsa:2048 -sha256 -nodes -keyout bot_private_key.key -x509 -days 10000 -out bot_public.pem -subj "/C=US/ST=New York/L=MyDomain/O=MyDomain/CN=YORDOMAINHERE.org"
